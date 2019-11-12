@@ -1,0 +1,17 @@
+1、华为云组长创建代码仓库
+2、本地安装git
+3、华为云创建ssh秘钥
+4、输入.ssh看一下是否有秘钥 
+5、ssh-keygen -t rsa -C "邮箱"
+6、c:/用户/admin（用户名）/.ssh/id_rsa.pub 秘钥进行复制 
+7、华为云添加SSH秘钥
+8、在指定位置创建一个文件夹，用于作为之后的本地仓库
+9、在git 关联到远程仓库
+10、远程仓库与本地仓库进行合并（华为云的本地仓库，一定要使用它的模板）
+11、idea创建项目指向将要成为本地仓库的文件夹
+12、idea配置git VCS ---》 Import into version control--->create git Repository --直接指向git本地仓库其实就是项目的目录
+13、file--settings ---git --配置本地git.exe
+14、鼠标点击项目右键  git--commit Repository  输入信息--commit 提交到本地仓库
+15、Ctrl+Shift+K  远程提交
+16、点击master-->后面的这个内容  配置提交的ssh地址
+17、以后的项目 14和15重复执行
